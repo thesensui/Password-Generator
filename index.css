@@ -11,8 +11,7 @@ body {
     background-size: 10%;
     text-align: center;
     font-size: larger;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .principal {
@@ -48,35 +47,21 @@ button {
     margin-top: 51px;
     text-shadow: 0 0 2px black;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 button:hover {
     border: 2px solid white;
 }
 
+.division {
+    border-top: 2px solid grey;
+}
 .passwords {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 30px;
-    border-top: 2px solid #273549;
-    text-align: center;
-    
-}
-
-
-p {
-    padding: 7px 40px;
-    background: #273549;
-    border-radius: 6px;
-    color: #ffe066;
-    margin-top: 30px;
-    font-size: 18px;
-    text-shadow: 1px 1px 4px black;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-#password1-el {
-    margin-right: 20px;
+background-color: #273549;;
+color: #ffe066;
+padding: 5px 40px 5px 40px;
+border-radius: 6px;;
+display: inline-block;
+justify-content: center;
+text-align: center;
 }
