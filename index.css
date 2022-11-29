@@ -2,13 +2,17 @@ body {
     font-family: 'Fugaz One', cursive;
     margin: 0;
     color: white;
-    margin: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     text-shadow: 0 0 2px black;
     background-image: url("https://media.wired.com/photos/5926e34f8d4ebc5ab806bd1c/master/pass/GettyImages-528338761.jpg");
     background-size: 10%;
     text-align: center;
     font-size: larger;
     display: flex;
+    flex-direction: column;
 }
 
 .principal {
@@ -16,8 +20,7 @@ body {
     padding: 60px;
     border-radius: 4px;
     border: 2px solid #ffe066;
-    margin-left: auto;
-    margin-right: auto;
+   margin: 20px;
     margin-bottom: 120px;
 
 }
@@ -53,7 +56,7 @@ button:hover {
 .passwords {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 30px;
     border-top: 2px solid #273549;
     text-align: center;
@@ -69,6 +72,8 @@ p {
     margin-top: 30px;
     font-size: 18px;
     text-shadow: 1px 1px 4px black;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
